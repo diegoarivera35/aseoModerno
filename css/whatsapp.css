@@ -1,0 +1,32 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:rgba(76, 199, 88,1);
+	border: 1px solid rgb(76, 199, 88);
+	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px);
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+	color:#FFF;
+	border-radius:10px;
+	text-align:center;
+  font-size:45px;
+  z-index:100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	text-decoration: none;
+}
+.float:hover {
+	text-decoration: none;
+	color: white;
+  background-color:#389641;
+  
+}
+
+/*
+.my-float{
+	margin-top: 4px;
+}*/
