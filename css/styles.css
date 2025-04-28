@@ -176,7 +176,8 @@ a:hover {
     #telefonoHead p { display: none; }
     .contenedorLogos {
         flex-direction: column;
-        height: 250px;
+        overflow-x: hidden;
+        /* height: 250px; */
     }
 }
 
@@ -526,7 +527,10 @@ footer {
     }
     .contenedorLogos img { max-height: 100px; }
     .delivery { height: 350px; }
-    .aliados { padding-top: 50px; }
+    .aliados { 
+        height: auto;
+        padding-top: 50px;
+     }
 }
 
 /* Scrollbar */
