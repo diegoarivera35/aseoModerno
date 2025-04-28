@@ -175,7 +175,7 @@ a:hover {
     }
     #telefonoHead p { display: none; }
     .aliados {
-        height: auto;
+        height: auto !important;
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -185,6 +185,10 @@ a:hover {
     #history .card img {
         width: 100%;
     }
+    .product-card img {
+        width: 100% !important;
+        margin:0px !important;
+      }
     .contenedorLogos {
         flex-direction: column;
         overflow-x: hidden;
