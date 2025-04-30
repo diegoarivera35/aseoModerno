@@ -584,9 +584,9 @@ footer {
 }
 
 .product-card img {
-    max-width: 250px; /* Reduced from 200px for better fit */
+    max-width: 100%; /* Reduced from 200px for better fit */
     align-self: center;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .product-card .card-body {
