@@ -192,6 +192,9 @@ a:hover {
     .contenedorLogos {
         flex-direction: column;
         overflow-x: hidden;
+        overflow-y: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
         /* height: 250px; */
     }
 }
